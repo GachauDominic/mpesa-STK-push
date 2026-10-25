@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Secrets: never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Runtime output: STK callbacks contain customers' phone numbers and receipt data
+stkcallback.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# ngrok config (can contain your authtoken)
+ngrok.yml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
