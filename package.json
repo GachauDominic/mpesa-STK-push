@@ -1,0 +1,28 @@
+{
+  "name": "mpesa-api",
+  "version": "1.0.0",
+  "description": "Mpesa Api in node js",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "keywords": [
+    "Mpesa"
+  ],
+  "author": "Dominic Gachau",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "body-parser": "^2.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "fund": "^1.0.0",
+    "moment": "^2.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
